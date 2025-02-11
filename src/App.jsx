@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HeartIcon } from '@heroicons/react/solid';
 
-const ValentinesWebsite = () => {
+const App = () => {
   const [currentStep, setCurrentStep] = useState(0);
   const [dateChoice, setDateChoice] = useState('');
   const [restaurantChoice, setRestaurantChoice] = useState('');
@@ -272,4 +272,4 @@ const ValentinesWebsite = () => {
   );
 };
 
-export default ValentinesWebsite;
+export default App;
